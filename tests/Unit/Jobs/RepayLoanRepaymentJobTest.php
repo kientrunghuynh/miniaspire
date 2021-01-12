@@ -1,7 +1,5 @@
 <?php
 
-namespace Tests\Unit;
-
 use App\Jobs\RepayLoanRepaymentJob;
 use App\Models\LoanRepayment;
 use Tests\TestCase;
