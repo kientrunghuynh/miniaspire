@@ -1,39 +1,14 @@
 # MiniAspire
 
-A simple API for loan application
+A simple API for loan application, please refer the cover features at here 
 
-## Features
+**[Features](https://github.com/kientrunghuynh/miniaspire/blob/master/Features.md)**
 
-**Customers management**
-**As a** a member of [the development team](http://scrumguides.org/scrum-guide.html#team-dev),
-**I want** clear context and goals **so that** I can work efficiently.
-
-Scattering information in emails and other places makes it difficult to work collaboratively,
-so I need all the relevant information within the relevant issue.
-
-
-### Acceptance Criteria
-
-1. I have clear Acceptance criteria [what a beautiful recursion].
-1. I have to understand the logic of the mockups, more than the pixels used, so that we can optimize the code.
-
-Please also note:
-
-1. If a conversation about the issue I’m working on is happening,
-the outcomes should be documented within that issue (not in the comments).
-
-
-### Resources:
-
-* [Style-guides and template for a user story](agile-user-story.md)
-* [“Advantages of the “As a user, I want” user story template.”](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
-* [Scrum guide](http://scrumguides.org/scrum-guide.html)
-
-**Loans management**
-
-**Loan Repayment management**
-
-
+These are lacking some features like:
+- The API protection which we can Laravel's packages like [Passport](https://github.com/laravel/passport) or [Sanctum](https://github.com/laravel/sanctum) depend on our expectation
+- Dockerize application which we can use the [Sail](https://github.com/laravel/sail) (we write docker-compose and dockerfile also )
+- API document which we can use the [DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger)
+- Monitor && Auding the modes changes which we can use [Accountant](https://altek.gitlab.io/accountant/installation.html#version-matrix)
 
 ## Getting Started
 
